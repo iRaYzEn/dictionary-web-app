@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Frontend Mentor | Dictionary web app</title>
+</head>
+
+<body >
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <div class="log__wrapper">
+                <img class="logo" src="assets/images/logo.svg" alt="logo">
+            </div>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="list__item font">
+                        <select name="font__select" class="font__select">
+                            <option class="option">Sans Serif</option>
+                            <option class="option">Serif</option>
+                            <option class="option">Mono</option>
+                        </select>
+                    </li>
+                    <li class="list__item line"></li>
+                    <li class="list__item">
+                        <button class="theme__button">
+                            <span class="button__circle"></span>
+                        </button>
+                    </li>
+                    <li class="list__item"><img class="icon__moon" src="assets/images/icon-moon.svg" alt="icon-moon">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper main__wrapper">
+            <section class="section section__word">
+                <div class="upper__section-word">
+                    <form class="input__form">
+                        <input class="input__word" type="text">
+                            <button type="submit" class="input__submit">
+                                <img class="icon__search" src="assets/images/icon-search.svg" alt="icon search">
+                            </button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
