@@ -10,12 +10,11 @@ themeButton.addEventListener("click", () => {
     if (!themeButton.classList.contains("theme__button--right")) {
         themeButton.classList.add("theme__button--right")
         themeButton.style.backgroundColor = "var(--purple)"
-        document.body.style.backgroundColor = "var(--black-800)"
-        document.body.classList.add("dark-mode")
+        document.body.classList.toggle("dark-mode")
     } else {
         themeButton.classList.remove("theme__button--right")
         themeButton.style.backgroundColor = "var(--gray-500)"
-        document.body.style.backgroundColor = "var(--white)"
+        document.body.classList.toggle("dark-mode")
     }
 })
 
