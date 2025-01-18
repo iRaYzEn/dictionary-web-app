@@ -5,3 +5,5 @@
 ## Welcome! 👋
 
 just a frontend mentor project
+
+- https://irayzen.github.io/dictionary-web-app/
